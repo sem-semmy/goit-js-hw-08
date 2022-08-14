@@ -17,6 +17,7 @@ player.on(
     localStorage.setItem('videoplayer-current-time', data.seconds);
   }, 1000)
 );
+
 // const player = new Vimeo.Player(iframe);
 
 // player.on('play', function () {
