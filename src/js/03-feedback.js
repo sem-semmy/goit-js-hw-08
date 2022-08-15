@@ -28,8 +28,8 @@ function formSubmit(even) {
   localStorage.clear();
   form.reset();
 }
-formInput.addEventListener('input', throttle(formChange, 500));
-formText.addEventListener('input', throttle(formChange, 500));
+form.addEventListener('input', throttle(formChange, 500));
+// formText.addEventListener('input', throttle(formChange, 500));
 form.addEventListener('submit', formSubmit);
 
 getData();
